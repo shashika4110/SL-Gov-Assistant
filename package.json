@@ -1,0 +1,19 @@
+{
+  "name": "sl-gov-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sri Lanka Government Service Assistant — Full Stack MERN Project",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "export:data": "npm run export:data --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
