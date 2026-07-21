@@ -126,22 +126,6 @@ npm run dev
 - Knowledge base fallback when API keys are not configured
 - Rate limiting, input validation, CORS, Helmet security
 
-## Deployment
-
-| Component | Platform |
-|-----------|----------|
-| Frontend | Vercel / Netlify |
-| Backend | Render / Railway |
-| Database | MongoDB Atlas |
-
-### Frontend (Vercel)
-
-Set environment variable: `VITE_API_URL=https://your-backend.onrender.com/api`
-
-### Backend (Render)
-
-Set all variables from `backend/.env.example`. Set `FRONTEND_URL` to your deployed frontend URL.
-
 ## Postman Testing
 
 Import these sample requests:
